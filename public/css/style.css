@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.logo img{
+    width: 180px;
+    height: auto;
+}
+.navbar{
+    background-color: #990000;
+    font-weight: bold;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: white;
+}
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+    }
+footer{
+    flex-shrink: 0; 
+    color: #999999;
+    background: #333333;
+    text-align: center;
+    padding: 15px;
+    
+    }
+    .fix{
+        margin-top: 100px;
+    }
+#main{
+        flex: 1 0 auto;
+        margin: auto;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: candara;
+        width: 100%;
+        text-align: center;
+        
+    }
+.feature-divider{
+    border-bottom: #990000 solid 2px;
+    margin: 35px 70px;
+    }
+.feature{
+        text-align: center;
+}
+.feature img{
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+    }
+    .feature text{
+        padding: 10px 0px;
+    }
+.photo{
+        width: 25%;
+        height: auto;
+        margin: 25px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-transition: transform 0.7s;
+        transition: transform 0.7s;
+        
+    }
+    .photo:hover{
+        transform: scale(1.3);
+        
+        
+    }
+    .photos{
+        display: inline-block;
+    }
+    #main iframe{
+        width: 100%;
+        height: 100%;
+    }
+    @media (max-width: 576px){
+        .photos{
+            display: inline;
+        }
+        .photo{
+            width: 80%;
+        }
+    }
+
+
+
